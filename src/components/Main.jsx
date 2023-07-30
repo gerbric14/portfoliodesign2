@@ -1,11 +1,12 @@
 import React from 'react'
 import { TypeAnimation } from 'react-type-animation';
 import {FaInstagram, FaLinkedinIn, FaTwitter} from 'react-icons/fa'
+import p2 from '../assets/p2.avif'
 
 const Main = () => {
   return (
     <div id='main' >
-        <img className='w-full h-screen object-cover object-left ]' src="src/assets/p2.avif" alt="img fondo" />
+        <img className='w-full h-screen object-cover object-left ]' src={p2} alt="img fondo" />
         <div className='w-full h-screen absolute top-0 left-0 bg-white/25'>
         <div className='max-w-3xl m-auto h-full flex flex-col justify-center lg:items-start items-center'>
             <h1 className='sm:text-5xl text-4xl font-bold text-[#001b5e]'>I'm German Briceno</h1>
